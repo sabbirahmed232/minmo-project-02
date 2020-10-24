@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+
+}
+header{
+    background: #cccaca;
+    padding: 20px 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    padding-left: 30px;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 80%;
+    flex: 0 1 auto;
+}
+nav ul{display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #232323;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 15px 45px;
+}
+
+section{}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.container img{
+    width: 100%;
+    background: no-repeat;
+    background-size: cover;
+}
+.container h2{
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: oblique;
+    padding-left: 20px;
+}
+.container h2 a{
+    text-decoration: none;
+    color: black;
+}
+.container p{
+    padding: 5px 20px 20px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.col{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    margin-top: 60px;
+}
+.image-01{
+    width: 100%;
+}
+.image-01 img{}
+.contend{
+    margin-top: 50px;
+}
+.contend h1{
+    padding: 5px 3px;
+}
+.contend h1 a{
+    text-decoration: none;
+    color: black;
+}
+.contend p{
+    padding: 20px 3px 0;
+}
+footer{
+    background: #cccaca;
+    margin-top: 50px;
+}
+footer .container{
+
+}
+.lis-item{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.lis-item ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lis-item ul li{
+}
+.lis-item ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.follow{
+    width: 20%;
+}
+.follow ul{
+
+list-style: none;
+}
+.follow ul li{
+}
+.follow ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 18px;
+}
